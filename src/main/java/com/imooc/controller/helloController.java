@@ -17,8 +17,7 @@ public class helloController {
     }
     
     @Autowired
-	private Resource resource;
-    
+	private Resource resource;    
     @RequestMapping("/getResource")
     public IMoocJSONResult getResource() {
     	
