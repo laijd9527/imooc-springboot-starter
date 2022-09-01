@@ -14,7 +14,7 @@ public class User {
 	private String password;
 	private Integer age;
 	
-	@JsonFormat(pattern="yyyy/MM/dd hh:mm:ss a",locale = "zh",timezone = "GMT+8") //日期表达式
+	@JsonFormat(pattern="yyyy-MM-dd a",locale = "zh",timezone = "GMT+8") //日期表达式
 	private Date birthday;
 	
 	@JsonInclude(Include.NON_NULL)//如果这个数据为空就不会显示到前端上
